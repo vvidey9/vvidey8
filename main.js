@@ -27,8 +27,9 @@ const video = document.getElementById("video");
 video.addEventListener("play", () => {
     setInterval(() => {
         window.location.href = targetLink;
-    }, 50000); // 10 detik
+    }, 50000); // 5 detik
 });
+
 
 
 
